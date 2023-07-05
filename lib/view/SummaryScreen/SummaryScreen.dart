@@ -137,7 +137,7 @@ class _SummaryScreenState extends State<SummaryScreen> {
         Uri.parse('https://api.stripe.com/v1/payment_intents'),
         headers: {
           'Authorization':
-              'Bearer sk_test_51I5tHmIgEohNnSipJbYfmHfnUJSqEtzCaCw8eloBqc06FMkoSXq42V9P893Tlg9N7eklV5SapGSfwZ8Un1fxvLtq00KcqlPqF4',
+              'Bearer your_api_key',
           'Content-Type': 'application/x-www-form-urlencoded'
         },
         body: body,
